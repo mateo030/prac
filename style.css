@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #f4f4f9; 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333; 
+}
+
+.title h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+.user-input {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#myInput {
+    width: 250px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#myInput:focus {
+    border-color: #4a90e2; 
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+#myButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#myButton:hover {
+    background: #357ab8;
+}
+
+#list {
+    width: 300px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9; 
+    transition: background 0.3s ease;
+}
+
+.container:hover {
+    background: #eef4ff; 
+}
+
+.container p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    word-break: break-word; 
+}
+
+.container .close {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.container .close:hover {
+    background: #c0392b; 
+}
